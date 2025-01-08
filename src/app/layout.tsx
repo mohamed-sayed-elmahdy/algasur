@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 
 const cairoFont = Cairo({
@@ -20,12 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${cairoFont.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+<html lang="en">
+  <Head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </Head>
+  <body className={`${cairoFont.variable} antialiased`}>
+    {children}
+  </body>
+</html>
+
   );
 }
