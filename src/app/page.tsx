@@ -1,4 +1,4 @@
-import LoginAndSignSidbar from "./components/loginAndSignSidbar";
+import LoginAndSignSidbar from "./components/LoginAndSignSidbar";
 import LanguageToggle from "./components/LanguageToggle";
 
 export default function Home() {
