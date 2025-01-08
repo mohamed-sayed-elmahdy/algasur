@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  font-family: var(--font-cairo), sans-serif;
-}
 
 :root {
   --text: #2f3c54;
