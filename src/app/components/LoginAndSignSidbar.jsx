@@ -1,4 +1,4 @@
-import manImage from "/public/arabMan.png";
+import manImage from "/public/arabman.png";
 import logo from "/public/logo.png";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import Image from "next/image";
